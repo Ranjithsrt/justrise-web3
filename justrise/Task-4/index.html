@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Table Example</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 100px;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 30px;
+            text-align: center;
+            background: #c7a9ff;
+        }
+
+        th {
+            background-color: rgb(17, 4, 120);
+            color:#fff;
+            font-weight: 800;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-transform: uppercase;
+        }
+
+        caption {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        tbody:hover{
+            background-color: #c7a9ff94;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Type - 1 -->
+
+    <table>
+        <caption>This is strutcure</caption>
+
+        <tr>
+            <th>mobiles</th>
+            <th>cars</th>
+            <th>computers</th>
+        </tr>
+        <tr>
+            <td>Apple</td>
+            <td>Benz</td>
+            <td>HP</td>
+        </tr>
+        <tr>
+            <td>Google</td>
+            <td>audi</td>
+            <td>mac</td>
+        </tr>
+    </table>
+
+
+
+
+    <!-- Type-2 -->
+
+
+
+    <h1>HTML Table Example</h1>
+
+    <table>
+        <!-- Caption -->
+        <caption>Student Marks Table</caption>
+
+        <!-- Table Header -->
+        <thead>
+            <tr>
+                <th>S.No</th>
+                <th>Name</th>
+                <th>Subject</th>
+                <th>Marks</th>
+            </tr>
+        </thead>
+
+        <!-- Table Body -->
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Ranjith</td>
+                <td>Math</td>
+                <td>85</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>srt</td>
+                <td>Science</td>
+                <td>90</td>
+            </tr>
+        </tbody>
+
+        <!-- Table Footer -->
+        <tfoot>
+            <tr>
+                <td colspan="3">Total Students</td>
+                <td>2</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>
